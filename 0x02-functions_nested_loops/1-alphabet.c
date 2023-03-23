@@ -1,22 +1,12 @@
-#include <stdio.h>
-/**
-* main - prints alpabet
- * Return: Returns 0
-*/
-void print_alphabet(void);
+#include "main.h"
 
+/**
+ * main - check the code
+ *
+ * Return: Always 0.
+ */
 int main(void)
 {
-print_alphabet();
-return (0);
-}
-void print_alphabet(void)
-{
-int ch;
-for (ch = 'a' ; ch <= 'z' ; ch++)
-{
-putchar(ch);
-}
-putchar('\n');
-
+    print_alphabet();
+    return (0);
 }
