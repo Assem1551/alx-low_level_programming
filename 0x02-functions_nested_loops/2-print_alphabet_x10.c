@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
- * print_alphabet- print the albhabets 10 times
+ * print_alphabet_x10- print the albhabets 10 times
  *
  */
 void print_alphabet_x10(void)
 {
-int i,j;
-for ( j = 0; j <=9; j++ )
+int i, j;
+for (j = 0; j <= 9; j++)
 {
 for (i = 97 ; i <= 122; i++)
 {
