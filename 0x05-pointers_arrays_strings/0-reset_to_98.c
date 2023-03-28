@@ -1,8 +1,8 @@
 #include "main.h"
 /**
  *reset_to_98 - changes the value it points to 98.
- *&n: int parameter
- *RETURN: return nothing 
+ * @n: int parameter
+ *RETURN: return nothing
  */
 void reset_to_98(int *n)
 {
