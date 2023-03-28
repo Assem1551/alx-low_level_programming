@@ -1,8 +1,8 @@
-#include "main.h>
-#include <stdio.h>
-
+#include "main.h"
+/**
+ *reset_to_98 - changes the value it points to 98.
+ */
 void reset_to_98(int *n);
 {
-int x = 98;
-*n =&x;
+*n = 98;
 }
