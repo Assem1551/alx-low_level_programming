@@ -1,18 +1,20 @@
 #include <stdio.h>
 
-int main (int *a, int *b)
+int main (void)
 {
-    printf ("%p %p ,",a,b);
+    char* s = "ahmed";
+int i=0;
+while (s[i])
+{
+    i++;
+}
+for (i=20 ; i >=0; i--)
+{
+putchar(s[i]+0);
+}
 
-int* temp = a;
-a=b ; 
-b= temp;
 
 
 
-
-
-
-printf ("%p %p %p,",temp,a,b);
 
 }
