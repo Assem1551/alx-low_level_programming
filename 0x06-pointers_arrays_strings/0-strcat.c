@@ -8,11 +8,11 @@
 char *_strcat(char *dest, char *src)
 {
 int ln_dest = 0 ,ln_src = 0;
-while (a[ln_dest])
+while (dest[ln_dest])
 {
     ln_dest++;
 }
-while (b[ln_src])
+while (src[ln_src])
 {
     ln_src++;
 }
@@ -23,16 +23,13 @@ int j;
 
 for (i = 0 ; i <= ln_dest ;i++)
 { 
-c [i] = a[i];
+c [i] = dest[i];
 }
 
-for (j = 0; j <= ln_b ; j++)
+for (j = 0; j <= ln_src ; j++)
 {
-c[ln_a + j]= b[j];
+c[ln_dest + j]= src[j];
 }
 return (c);
-
-
-
 
 }
