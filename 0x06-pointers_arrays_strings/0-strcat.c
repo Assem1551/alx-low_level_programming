@@ -7,29 +7,21 @@
 
 char *_strcat(char *dest, char *src)
 {
-int ln_dest = 0 ,ln_src = 0;
-while (dest[ln_dest])
+int c ,c2 ;
+c = 0 ;
+while (dest[c])
 {
-    ln_dest++;
-}
-while (src[ln_src])
-{
-    ln_src++;
-}
-int ln_total= ln_dest + ln_src;
-char c [ln_total];
-int i;
-int j;
-
-for (i = 0 ; i <= ln_dest ;i++)
-{ 
-c [i] = dest[i];
+c++;
 }
 
-for (j = 0; j <= ln_src ; j++)
+for (c2 = 0 ; src[c2]; c++)
 {
-c[ln_dest + j]= src[j];
+dest [c] = src [c2];
+c++;
 }
-return (c);
+
+
+
+return (dest);
 
 }
