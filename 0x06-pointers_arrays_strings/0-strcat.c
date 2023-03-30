@@ -1,14 +1,15 @@
 #include "main.h"
 /**
- *_puts - swap 2 ints
- * @str: string
+ *_strcat - swap 2 ints
+ * dest: string
+ * src: string
 * Return: Returns the string length
  */
 
 char *_strcat(char *dest, char *src)
 {
-int c ,c2 ;
-c = 0 ;
+int c, c2;
+c = 0;
 while (dest[c])
 {
 c++;
