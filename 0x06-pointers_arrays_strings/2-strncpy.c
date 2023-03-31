@@ -2,9 +2,9 @@
 
 /**
 * _strncpy - prints alpabet
- * n - the intger
- * dest - string1
- * src - string2
+ * @n :the intger
+ * @dest:string1
+ * @src: string2
  * Return: Returns dest
 */
 
