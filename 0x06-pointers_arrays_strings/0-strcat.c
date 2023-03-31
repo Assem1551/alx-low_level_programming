@@ -1,8 +1,8 @@
 #include "main.h"
 /**
  *_strcat - swap 2 ints
- * dest: string
- * src: string
+ * @dest: string
+ * @src: string
 * Return: Returns the string length
  */
 

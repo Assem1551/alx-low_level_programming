@@ -1,8 +1,9 @@
 #include "main.h"
 /**
- *_strcat - swap 2 ints
- * dest: string
- * src: string
+ *_strncat - swap 2 ints
+ * @n: int
+ * @dest: string
+ * @src: string
 * Return: Returns the string length
  */
 
@@ -19,7 +20,7 @@ for (c2 = 0 ; c2 < n && src[c] != '\0' ; c2++)
 {
 dest [c + c2] = src [c2];
 }
-dest [c+c2] = '\0';
+dest [c + c2] = '\0';
 
 
 return (dest);
