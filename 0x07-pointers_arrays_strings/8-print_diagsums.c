@@ -4,11 +4,11 @@
  * print_diagsums - Entry point
  * @a: input no 1
  * @size: input no 2
- * Return: returns 0 
+ * Return: returns 0
  */
 void print_diagsums(int *a, int size)
 {
-	int s1, s2, y;
+int s1, s2, y;
 
 	s1 = 0;
 	s2 = 0;
