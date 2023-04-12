@@ -9,23 +9,8 @@
 int main(int argc, char *argv[])
 {
 
-int x = argv[0];
-printf("%d \n", argc);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+(void) argv;
+printf("%d\n", argc);
 
 
 return (0);
