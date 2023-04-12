@@ -7,6 +7,7 @@ if (size == 0 || s==0)
 {
 retutn (0);
 }
-s[0] = c;
+while (size--)
+s[size] = c;
 return (s);
 }
