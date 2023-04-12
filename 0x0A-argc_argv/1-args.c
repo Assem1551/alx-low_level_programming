@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
-*main - checks for uppercase character
+*main - prints number of inputs
 *@argc:count parameter
 *@argv:count array
 *Return: 0
@@ -9,9 +9,24 @@
 int main(int argc, char *argv[])
 {
 
+int x = argv[0];
+printf("%d \n", argc);
 
-(void)argc;
-printf("%s \n", argv[0]);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 return (0);
 
