@@ -8,6 +8,9 @@ if (size == 0 || s==0)
 return (0);
 }
 while (size--)
+{
 s[size] = c;
+}
+
 return (s);
 }
