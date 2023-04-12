@@ -2,11 +2,11 @@
 
 char *create_array(unsigned int size, char c)
 {
-char *s = malloc (sizeof(unsigned int) * 5);
-if (s == NULL)
+char *s = malloc (size);
+if (size == 0 || s==0)
 {
-retutn (NULL);
+retutn (0);
 }
-
+s[0] = c;
 return (s);
 }
