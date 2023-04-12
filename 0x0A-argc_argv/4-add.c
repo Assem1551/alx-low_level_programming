@@ -18,12 +18,12 @@ while (--argc)
 for (c = argv[argc]; *c; c++)
 if (*c < '0' || *c > '9')
 {
-printf ("Error\n");
+printf("Error\n");
 return (1);
 }
 sum += atoi(argv[argc]);
 }
 
-printf ("%d\n",sum);
+printf("%d\n", sum);
 return (0);
 }
