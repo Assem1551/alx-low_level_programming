@@ -35,7 +35,7 @@ break;
 
 }
 
-printf("%d", lcents);
+printf("%d\n", lcents);
 }
 
 return (0);
