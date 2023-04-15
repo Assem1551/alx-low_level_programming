@@ -1,36 +1,39 @@
 #include "main.h"
+#include <stdlib.h>
 /**
- * *malloc_checked- Returns the number of bytes
- * @b: parameter1
+ * _strdup - Main
+ * @str: input
  * Return: 0
  */
-
-char *string_nconcat(char *s1, char *s2, unsigned int n)
+char *_strdup(char *str)
 {
-int i,j = 0;
-char *m;
+char *nstr;
+unsigned int l, i;
 
-while (s1 [i])
+/* check is str is null */
+if (str == NULL)
 {
-i++;
+return (NULL);
 }
 
-
-for (j = 0; j <= i; j++)
+l = 0;
+while (str[l] != '\0')
 {
-m[j] = s1[j]; 
-}
-for (j = 0; j <= n; j++)
-{
-m[i+j] = s2[j];
-
+l++;
 }
 
+nstr = malloc(sizeof(char) * (l + 1));
 
-if (m == 0)
+/*check if malloc was successful*/
+if (nstr == NULL)
 {
-return (NULL) ;
+return (NULL);
 }
-return (m);
 
+for (i = 0; i < l; i++)
+{
+nstr[i] = str[i];
+}
+nstr[l] = '\0';
+return (nstr);
 }
