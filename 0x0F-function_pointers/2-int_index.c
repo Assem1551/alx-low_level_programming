@@ -1,10 +1,10 @@
 #include "function_pointers.h"
 #include <stddef.h>
 /**
- * array_iterator- executes a function on each element of an array
+ * int_index- index for the array
  * @array:p1
  * @size: p2
- * @action: p3
+ * @cmp: p3
  * Return: nothing
  */
 
@@ -15,7 +15,7 @@ if (array && size && cmp)
 {
 while (x < size)
 {
-if (cmp (array[x]))
+if (cmp(array[x]))
 {
 return (x);
 }
