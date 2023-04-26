@@ -11,7 +11,8 @@ return (0);
 }
 va_list ptr ;
 va_start (ptr, n);
-int i,sum = 0;
+int i =0;
+int sum = 0;
 for (i = 0; i < n; i++)
 {
 sum += va_arg(ptr, int);
