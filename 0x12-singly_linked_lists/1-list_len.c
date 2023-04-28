@@ -15,7 +15,7 @@ tmp = h;
 
 while (tmp)
 {
-sum ++;
+sum++;
 h = h->next;
 }
 
