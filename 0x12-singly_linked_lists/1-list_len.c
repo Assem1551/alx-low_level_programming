@@ -21,3 +21,4 @@ h = h->next;
 }
 
 return (sum);
+}
