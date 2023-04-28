@@ -9,14 +9,14 @@
 
 size_t list_len(const list_t *h)
 {
-int sum = 0;
+unsigned int sum = 0;
 const list_t *tmp;
 tmp = h;
 
 while (tmp)
 {
 sum++;
-h = h->next;
+tmp = tmp->next;
 }
 
 return (sum);
